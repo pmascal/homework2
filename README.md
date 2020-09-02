@@ -22,7 +22,6 @@ and get output similar to
 32 F = 0 C
 ```
 
-
 ## Exercise 2
  
 Write a bash script that provides a count of the number of (1) files and (2) subdirectories in the current directory.  The script should be named `count_files_and_subdirs.sh`.  (Tools like `wc` and `grep` might be very helpful.)  You choose to exclude the hidden files and directories.
@@ -33,8 +32,9 @@ Write a bash script that provides a count of the number of (1) files and (2) sub
 Recall our team assignments [defined here](https://github.com/me701/homework2_teams/). 
 Do the following:
 
-  1. Add your partner's (the person after you) repository as a remote
-  2. Fetch and checkout your partner's `master` branch and use it to create a new branch named `dev` in your own, local repository
+  0. Fork and clone your partner's (the person after you) repository (you will need to be given access).  
+  1. Add your partner's repository as a remote.
+  2. Fetch and checkout your partner's `master` branch and use it to create a new branch named `dev` in your own, local repository.
   3. Modify your partner's `temperature.sh` script to output the temperature in Kelvin, too.
   4. Commit any changes and `push` to *your* GitHub repository as a new remote branch named `dev`.
   5. Make a *pull request* from your remote `dev` branch into your partner's `master` branch
